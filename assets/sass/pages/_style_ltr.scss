@@ -1,0 +1,299 @@
+.direction-ltr {
+  direction: ltr;
+}
+
+.price-filter-buttons {
+  direction: ltr;
+
+  .nav-link {
+    line-height: 24px;
+  }
+}
+
+.arabic_footer {
+  .direction-ltr {
+    .footer-widget {
+      text-align: left;
+    }
+  }
+}
+
+.arabic_header
+  .arabic_header_menus
+  .arabic_swicher_button
+  .dropdown
+  button
+  img {
+  margin-right: 4px;
+  width: 20px;
+}
+.arabic_header .arabic_header_menus .main_menu ul li.sub-menu {
+  margin-right: 22px;
+  text-align: left;
+}
+
+.direction-ltr {
+  .hero-image01 {
+    top: -100px;
+
+    img {
+      transform: rotateY(168deg);
+    }
+  }
+}
+.hero-sliderWraper {
+  padding-left: 86px;
+  padding-right: 0px;
+
+  .swiper-pagination {
+    left: 16px;
+    right: auto;
+  }
+}
+.service-process02 {
+  .process-sin {
+    span {
+      right: -17px;
+      transform: rotate(180deg);
+    }
+    h4 {
+      font-size: 18px;
+      margin-right: 0px;
+    }
+  }
+}
+
+.about-pageContent {
+  h4 {
+    text-align: left;
+  }
+  img {
+    right: 88%;
+  }
+  p {
+    text-align: left;
+  }
+}
+
+.contact-info {
+  ul {
+    li {
+      h4 svg {
+        margin-right: 10px;
+      }
+    }
+  }
+  .numberFiled label {
+    right: 0;
+  }
+}
+.contact-wrapper02 .contact-info ul li {
+  padding-left: 0;
+}
+.account-form form label {
+  text-align: left;
+  display: block;
+}
+
+.hero-content {
+  text-align: left;
+
+  p {
+    text-align: left;
+  }
+}
+.price-box {
+  padding: 36px 17px 20px 34px;
+
+  .price-header {
+    h2 {
+      font-size: 37px;
+      font-weight: 600;
+      line-height: 42.51px;
+      color: #02015a;
+      direction: ltr;
+      margin: 0 0 20px;
+    }
+  }
+
+  ul {
+    li {
+      direction: ltr;
+      text-align: left;
+    }
+  }
+  .price-footer {
+    margin-left: 0px;
+    .prf-list {
+      h4 {
+        text-align: left;
+      }
+    }
+  }
+}
+.contact-info {
+  ul {
+    li {
+      padding-left: 34px;
+      span {
+        position: absolute;
+        left: 0;
+        top: 4px;
+        width: 22px;
+        height: 22px;
+      }
+    }
+  }
+}
+.contact-form {
+  select {
+    direction: ltr;
+    text-align: left;
+  }
+  .numberFiled.nf02 label {
+    top: 0;
+    text-align: end;
+  }
+}
+
+.search-form {
+  form {
+    input {
+      direction: ltr;
+    }
+    button {
+      left: auto;
+      right: 18px;
+    }
+  }
+}
+.service-process .process-sin span {
+  transform: rotate(180deg);
+}
+
+.hero-content {
+  ul {
+    li {
+      direction: ltr;
+      svg {
+        margin-left: 0px;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+.conwrap03 .contact-form select {
+  direction: ltr;
+  text-align: left;
+}
+
+.faq-area {
+  .accordion-item {
+    .accordion-button {
+      direction: ltr;
+
+      &::after {
+        margin-right: 0;
+        margin-left: auto;
+      }
+    }
+    .accordion-body {
+      text-align: left;
+    }
+  }
+}
+.position-relative {
+  .form-control {
+    direction: ltr;
+  }
+}
+
+.privacy_box {
+  .privacy_title {
+    text-align: left;
+    direction: ltr;
+  }
+  p {
+    text-align: left;
+  }
+  .privacy_list {
+    text-align: left;
+    direction: ltr;
+
+    margin-left: 30px;
+  }
+}
+
+.search-keywordWraper p {
+  direction: ltr;
+}
+.arabic_header .arabic_header_menus .main_menu ul li.sub-menu svg {
+  transform: rotate(180deg);
+}
+.account-form .login-other {
+  direction: ltr;
+}
+.small-size {
+  font-size: 38px;
+}
+.arabic_header .arabic_header_menus .main_menu ul li ul {
+  min-width: 200px;
+
+  li {
+    display: block;
+  }
+}
+li.no-list-style {
+  list-style: none;
+}
+
+ul {
+  @include screen-768 {
+    li.custom-margin {
+      margin-bottom: 3px;
+    }
+  }
+}
+
+@include screen-992 {
+  .arabic_header .humbarger-button {
+    float: right;
+  }
+  li.nav-item.custom-margin {
+    margin-bottom: 3px;
+  }
+}
+
+@include screen-768 {
+  .hero-sliderWraper {
+    padding-left: 0px;
+  }
+  .hero-image01 {
+    margin-top: 100px;
+    text-align: left;
+    padding-bottom: 0px;
+  }
+  .arabic_footer .direction-ltr .footer-widget {
+    text-align: center;
+  }
+  .about-pageContent img {
+    right: 72%;
+  }
+  .privacy_page_title,
+  .terms_page_title {
+    margin-bottom: 10px;
+  }
+
+  .hero-content ul {
+    text-align: left;
+  }
+  .service-process02 .process-sin span svg {
+    transform: rotate(90deg);
+    margin-top: -72px;
+    margin-left: 13px;
+  }
+
+  .custom-column .col {
+    flex: none;
+  }
+}
