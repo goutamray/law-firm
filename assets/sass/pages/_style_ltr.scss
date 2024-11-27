@@ -297,3 +297,12 @@ ul {
     flex: none;
   }
 }
+
+@include screen-460 {
+  .about-pageContent img {
+    right: 64%;
+  }
+  .about-pageContent {
+    overflow: hidden;
+}
+}
