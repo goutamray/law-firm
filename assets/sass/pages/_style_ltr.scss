@@ -306,3 +306,9 @@ ul {
     overflow: hidden;
 }
 }
+
+@include screen-400 {
+  .about-pageContent img {
+    right: 59%;
+  }
+}

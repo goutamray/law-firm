@@ -2548,7 +2548,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .price-filter-buttons {
-  border: 1.45px solid #E8ECF5;
+  border: 1.45px solid #e8ecf5;
   border-radius: 12px;
   padding: 8px;
   background: var(--white-color);
@@ -2577,7 +2577,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-size: 16.61px;
   font-weight: 800;
   line-height: 46.27px;
-  color: #1C1C1C;
+  color: #1c1c1c;
   border-radius: 12px;
   padding: 4px 26px;
   border: 0;
@@ -2591,7 +2591,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   }
 }
 .price-filter-buttons .nav-link.active {
-  background: #E2FDF9;
+  background: #e2fdf9;
   color: var(--primary-color);
 }
 
@@ -2635,7 +2635,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   text-align: center;
 }
 .price-box .price-header button {
-  background: #7CEB99;
+  background: #A3D9A5;
   font-size: 20.37px;
   font-weight: 700;
   line-height: 24.44px;
@@ -2648,7 +2648,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-size: 37px;
   font-weight: 600;
   line-height: 42.51px;
-  color: #02015A;
+  color: #02015a;
   direction: rtl;
   margin: 0 0 20px;
 }
@@ -2685,7 +2685,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 .price-box .price-footer .prf-list {
   width: 100%;
-  background: #EEFFF2;
+  background: #eefff2;
   border-radius: 9px;
   color: #333333;
   direction: rtl;
@@ -2726,7 +2726,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
           flex: 0 0 22px;
 }
 .price-box .price-footer .prf-list .mark {
-  color: #66D282;
+  color: #66d282;
   font-weight: 700;
   background: transparent;
 }
@@ -2734,7 +2734,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   display: inline-block;
   width: 100%;
   text-align: center;
-  background: #7CEB99;
+  background: #A3D9A5;
   color: var(--black-color);
   border-radius: 8px;
   padding: 13px 45px;
@@ -2745,42 +2745,42 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: var(--white-color);
 }
 .price-box.ibox02 .prf-list {
-  background: #FFFBE7;
+  background: #fffbe7;
 }
 .price-box.ibox02 .prf-list .mark {
-  color: #EB950A;
+  color: #eb950a;
 }
 .price-box.ibox02 .price-header button {
-  background: #FFD700;
+  background: #BDC3C7;
 }
 .price-box.ibox02 ul li span {
-  background: #EB950A;
+  background: #eb950a;
 }
 .price-box.ibox02 .price-footer button {
-  background: #FFFBE7;
+  background: #BDC3C7;
 }
 .price-box.ibox02 .price-footer .price-btn {
-  background: #FFD700;
+  background: #BDC3C7;
 }
 .price-box.ibox02 .price-footer .price-btn:hover {
   background: var(--black-color);
   color: var(--white-color);
 }
 .price-box.ibox03 .prf-list {
-  background: #E7F3F7;
+  background: #e7f3f7;
 }
 .price-box.ibox03 .price-header button {
-  background: #01AEEF;
+  background: #a3d9a5;
   color: var(--white-color);
 }
 .price-box.ibox03 ul li span {
-  background: #01AEEF;
+  background: #01aeef;
 }
 .price-box.ibox03 .price-footer button {
-  background: #E7F3F7;
+  background: #e7f3f7;
 }
 .price-box.ibox03 .price-footer .price-btn {
-  background: #01AEEF;
+  background: #a3d9a5;
   color: var(--white-color);
 }
 .price-box.ibox03 .price-footer .price-btn:hover {
